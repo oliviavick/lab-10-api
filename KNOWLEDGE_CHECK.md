@@ -13,4 +13,4 @@ Take a screenshot that shows the integration request and the Lambda function it 
 Name the Lambda function from your screenshot. Why did Chalice create this function instead of using `book-analyzer-dev-analyze_new_book` from Lab 07?
 
 The Lambda funcrion is book-annalyzer-dev. This function was created to hmndle HTTP requests through API Gateway. The book-analyzer-dev-aanalyze_new_book function is different because it is trigrgered by S3 events when a new book is uploaded, rather than by an API reauest.
-...
+
